@@ -1,0 +1,220 @@
+body {
+    background-image: url("raptors.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	font-size: 16px;
+}
+
+h1 { /* Used to create 3d title*/
+    color: Red;
+    text-align: center;
+	font-family: Helvetica, sans-serif;
+	  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	font-size: 100px		  
+	
+}
+
+p {
+    font-family: verdana, sans-serif;
+    font-size: 20px;
+}
+
+.center 
+{
+    text-align: center;
+    color: white;
+	font-family: Helvetica, sans-serif;
+	  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	font-size: 50px	
+}
+
+.h3 {
+     margin: 10% 0;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+video { /* Used to center video*/
+    display: block;
+    margin: 0 auto;
+}
+
+
+#nav { /* Used to create nav bar */
+      
+	font: bold 11px/1.5em Verdana;
+      
+float:none;
+      
+width:100%;
+      
+line-height:normal;
+
+      }
+    
+
+#nav ul {
+	
+margin:0 auto;
+	
+padding:10px 10px 0 50px;
+	
+list-style: none ;
+      
+}
+    
+
+#nav li {
+      
+display:inline;
+      
+margin:0 auto;
+      
+padding:0;
+      
+}
+    
+
+#nav a {
+      
+float:none;
+      
+background:url("images/tableft17.gif") 
+no-repeat left top;
+      
+margin:0 auto;
+      
+padding:0 0 0 4px;
+      
+text-decoration:none;
+      
+}
+    
+
+#nav a span {
+      
+float:none;
+      
+display:block;
+      
+background:url("images/tabright17.gif") 
+no-repeat right top;
+      
+padding:5px 15px 4px 6px;
+      
+color:#FFF;
+      
+}
+     
+
+#nav a span {float:none;}
+    
+
+#nav a:hover span {
+      
+color:#FFF;
+      
+}
+    
+
+#nav a:hover {
+      
+background-position:0% -42px;
+      
+}
+    
+
+#nav a:hover span {
+      
+background-position:100% -42px;      
+}
+
+
+#nav li{
+    display:inline;
+}
+#nav a{
+    display:inline-block;
+    padding:0;
+}
+
+#nav{
+  
+    text-align:center;
+}
+
+table.table { /* Used to create the stats table */
+  border: 3px solid #EB0A2B;
+  background-color: #DFC8DE;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.table td, table.table th {
+  border: 1px solid #AA1313;
+  padding: 3px 2px;
+}
+table.table tbody td {
+  font-size: 13px;
+}
+table.table tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.table thead {
+  background: #7A1515;
+  background: linear-gradient(to bottom, #9b4f4f 0%, #872c2c 66%, #7A1515 100%);
+  border-bottom: 2px solid #EB1515;
+}
+table.table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #F51A33;
+}
+table.table thead th:first-child {
+  border-left: none;
+}
+
+table.table tfoot td {
+  font-size: 14px;
+}
+
+.centerlist {
+	color: white;
+	font-size: 30px;
+}
+
+li{
+  margin: 70px 0;
+} 
+
